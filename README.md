@@ -8,9 +8,7 @@ The present lecture is intended for you to accomplish the following objectives:
 - Have a quick look at a simple model for behavioral tracking data
 
 ### Terminology
-**python**
-
-computer programming language
+**python** \n computer programming language
 
 **interpreter**
 
