@@ -8,14 +8,12 @@ The present lecture is intended for you to accomplish the following objectives:
 - Have a quick look at a simple model for behavioral tracking data
 
 ### Terminology
-**python** \n computer programming language
+**python** computer programming language
 
 **interpreter**
-
 program to read and execute code
 
 **PyCharm**
-
 integrated development environment (IDE): software application that helps programmers develop software code
 
 **module**
@@ -33,12 +31,30 @@ allow to isolate Python development projects from your system installed Python a
 **Anaconda**
 helps you create an environment for many different versions of Python and package versions
 
-
 ## Prerequisites
+Install PyCharm and Anaconda following https://medium.com/@GalarnykMichael/setting-up-pycharm-with-anaconda-plus-installing-packages-windows-mac-db2b158bd8c
 
-### Install dependencies
-Open a terminal and type:
-```
-conda install --yes pytables numpy pandas matplotlib
-```
+### Create your python environment
+**Open your terminal**
+
+WINDOWS: press Windows key + R
+
+macOS: press CMD + space, type in “Terminal”
+
+Linux: press Ctrl + Alt + T
+
+
+Create a new environment named pyVTK, install python 3.9
+```conda create --name pyVTK python=3.9```
+
+press ```y``` if prompted
+
+Activate the new environment to use it
+
+WINDOWS: ```activate py35```
+LINUX, macOS: ```source activate py35```
+Install packages required for today
+```conda install --yes pytables matplotlib numpy pandas imageio```
+Update a package
+```conda install --yes pytables matplotlib numpy pandas imageio```
 
