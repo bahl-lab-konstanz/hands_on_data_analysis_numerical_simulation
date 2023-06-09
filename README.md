@@ -9,12 +9,15 @@ The present lecture is intended for you to accomplish the following objectives:
 
 ### Terminology
 **python**
+
 computer programming language
 
 **interpreter**
+
 program to read and execute code
 
 **PyCharm**
+
 integrated development environment (IDE): software application that helps programmers develop software code
 
 **module**
