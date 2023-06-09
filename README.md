@@ -36,7 +36,7 @@ helps you create an environment for many different versions of Python and packag
 2. Download this repository as a zip file
 
 ### Create your python environment
-**Open your terminal**
+**1. Open your terminal**
 
 WINDOWS: press Windows key + R
 
@@ -45,14 +45,14 @@ macOS: press CMD + space, type in “Terminal”
 Linux: press Ctrl + Alt + T
 
 
-**Create a new environment named pyVTK and install python 3.9**
+**2. Create a new environment named pyVTK and install python 3.9**
 
 ```conda create --name pyVTK python=3.9```
 
 press ```y``` if prompted
 
 
-**Activate the new environment to use it**
+**3. Activate the new environment to use it**
 
 WINDOWS:
 ```activate py35```
@@ -61,12 +61,12 @@ LINUX, macOS:
 ```source activate py35```
 
 
-**Install packages required for today**
+**4. Install packages required for today**
 
 ```conda install --yes pytables matplotlib numpy pandas imageio```
 
 
-**To update a package (e.g. matplotlib) type**
+**5. To update a package (e.g. matplotlib) type**
 
 ```conda update matplotlib ```
 
