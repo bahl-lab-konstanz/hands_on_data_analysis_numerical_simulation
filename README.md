@@ -44,17 +44,28 @@ macOS: press CMD + space, type in “Terminal”
 Linux: press Ctrl + Alt + T
 
 
-Create a new environment named pyVTK, install python 3.9
+**Create a new environment named pyVTK and install python 3.9**
+
 ```conda create --name pyVTK python=3.9```
 
 press ```y``` if prompted
 
-Activate the new environment to use it
 
-WINDOWS: ```activate py35```
-LINUX, macOS: ```source activate py35```
-Install packages required for today
+**Activate the new environment to use it**
+
+WINDOWS:
+```activate py35```
+
+LINUX, macOS:
+```source activate py35```
+
+
+**Install packages required for today**
+
 ```conda install --yes pytables matplotlib numpy pandas imageio```
-Update a package
-```conda install --yes pytables matplotlib numpy pandas imageio```
+
+
+**To update a package (e.g. matplotlib) type**
+
+```conda update matplotlib ```
 
