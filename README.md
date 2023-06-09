@@ -32,7 +32,8 @@ allow to isolate Python development projects from your system installed Python a
 helps you create an environment for many different versions of Python and package versions
 
 ## Prerequisites
-Install PyCharm and Anaconda following https://medium.com/@GalarnykMichael/setting-up-pycharm-with-anaconda-plus-installing-packages-windows-mac-db2b158bd8c
+1. Install PyCharm and Anaconda following https://medium.com/@GalarnykMichael/setting-up-pycharm-with-anaconda-plus-installing-packages-windows-mac-db2b158bd8c
+2. Download this repository as a zip file
 
 ### Create your python environment
 **Open your terminal**
