@@ -55,10 +55,10 @@ press ```y``` if prompted
 **3. Activate the new environment to use it**
 
 WINDOWS:
-```activate py35```
+```activate pyVTK```
 
 LINUX, macOS:
-```source activate py35```
+```source activate pyVTK```
 
 
 **4. Install packages required for today**
