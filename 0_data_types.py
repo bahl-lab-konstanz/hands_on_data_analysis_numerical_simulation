@@ -15,7 +15,7 @@ activate_dict = False
 activate_exercise = False
 
 if activate_boolean:
-    print(f"INFO | The data type of var_0 is {type(activate_boolean)} and its value is {activate_boolean}")
+    print(f"INFO | The data type of variable 'activate_boolean' is {type(activate_boolean)} and its value is {activate_boolean}")
 
 # - integers, to represent positive and negative integer numbers
 if activate_integer:
@@ -46,7 +46,7 @@ if activate_list:
     # lists entries can be accessed by indexing from 0 to the length of the list - 1
     # lists are mutable, it means that we can simply change part of our lists by reassigning the elements
     var_list_1[1] = "right string"
-    print(f"INFO | We just changed the second element to the value {var_list_1[1]}")
+    print(f"INFO | We just changed the second element to value '{var_list_1[1]}'")
 
 # There is also the possibility to have data structured in key-value fashion. To this aim we use dictionaris
 if activate_dict:

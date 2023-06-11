@@ -36,8 +36,8 @@ def simulate_random_walk_2D(num_individuals, num_steps, p_left=0.5, p_up=0.5):
                 current_position[1] += np.random.normal(1, 0.5)  # agent moves down
 
             # Append the current position to the DataFrame
-            df = df.append(pd.DataFrame([[i, step, current_position[0], current_position[1]]],
-                                        columns=['fish_ID', 'swim_number', 'x_position', 'y_position']))
+            df = pd.concat([df, pd.DataFrame([[i, step, current_position[0], current_position[1]]],
+                                        columns=['fish_ID', 'swim_number', 'x_position', 'y_position'])])
 
     # Set the multi-index with 'Individual' and 'Step' columns
     df.set_index(['fish_ID', 'swim_number'], inplace=True)
@@ -80,6 +80,7 @@ def count_movements(df):
         print("Right moving counts:", negative_x)
         print("Up moving counts:", positive_y)
         print("Down moving counts:", negative_y)
+        print("")
 
     return None
 
