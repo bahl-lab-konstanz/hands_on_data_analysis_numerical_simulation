@@ -47,7 +47,7 @@ Linux: press Ctrl + Alt + T
 
 **2. Create a new environment named pyVTK and install python 3.9**
 
-```conda create --name pyVTK python=3.9```
+```conda create --name pyVTK python=3.10```
 
 press ```y``` if prompted
 
