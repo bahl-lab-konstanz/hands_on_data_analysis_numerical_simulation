@@ -48,12 +48,12 @@ if activate_list:
     var_list_1[1] = "right string"
     print(f"INFO | We just changed the second element to value '{var_list_1[1]}'")
 
-# There is also the possibility to have data structured in key-value fashion. To this aim we use dictionaris
+# There is also the possibility to have data structured in key-value fashion. To this aim we use dictionaries
 if activate_dict:
     # to initialize dictionaries we use curly braces. We can also initialize empty dicts
     var_dict_0 = {}
 
-    # dictionaries keys must be of an immutable data type, while values can have any type heterogeneally in a dict
+    # dictionaries keys must be of an immutable data type, while values can have heterogeneous types in a dict
     var_dict_1 = {
         "key_0": 0,
         "key_1": "value",

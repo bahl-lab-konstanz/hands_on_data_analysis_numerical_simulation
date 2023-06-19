@@ -45,7 +45,7 @@ if activate_loops:
         if i % 2 == 0:
             print(f"{i} is an even number")
 
-    # Another option for loops implmentation is the "while" keyword. We only have to provide a stop condition. The
+    # Another option for loops implementation is the "while" keyword. We only have to provide a stop condition. The
     # related code will keep being executed as long as the condition is met.
     i = 0
     while i < 5:
